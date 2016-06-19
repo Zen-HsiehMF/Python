@@ -1,0 +1,77 @@
+- 偵測目標 - www.yahoo.com.tw
+- 偵測位置 - 
+ 國家 : Hong Kong , 城市 : None , 地區 : None
+ ISP : AS10229 Internet Content Provider
+ 經度 : 22.25 , 緯度 : 114.1667
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - 140.127.218.198
+- 偵測位置 - 
+ 國家 : Taiwan , 城市 : None , 地區 : None
+ ISP : AS17713 National Sun Yat-sen University
+ 經度 : 23.5 , 緯度 : 121.0
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - 140.117.11.1
+- 偵測位置 - 
+ 國家 : Taiwan , 城市 : None , 地區 : None
+ ISP : AS17713 National Sun Yat-sen University
+ 經度 : 23.5 , 緯度 : 121.0
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - www.ntu.edu.tw
+- 偵測位置 - 
+ 國家 : Taiwan , 城市 : Taipei , 地區 : 03
+ ISP : AS17716 National Taiwan University
+ 經度 : 25.0392 , 緯度 : 121.525
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - www.nctu.edu.tw
+- 偵測位置 - 
+ 國家 : Taiwan , 城市 : Taipei , 地區 : 03
+ ISP : AS9916 National Chiao Tung University
+ 經度 : 25.0392 , 緯度 : 121.525
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - www.nsysu.edu.tw
+- 偵測位置 - 
+ 國家 : Taiwan , 城市 : None , 地區 : None
+ ISP : AS17713 National Sun Yat-sen University
+ 經度 : 23.5 , 緯度 : 121.0
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - 27.105.29.166
+- 偵測位置 - 
+ 國家 : Taiwan , 城市 : Taipei , 地區 : 03
+ ISP : AS18182 Sony Network Taiwan Limited
+ 經度 : 25.0392 , 緯度 : 121.525
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - 140.127.218.198
+- 偵測位置 - 
+ 國家 : Taiwan , 城市 : None , 地區 : None
+ ISP : AS17713 National Sun Yat-sen University
+ 經度 : 23.5 , 緯度 : 121.0
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - www.google.com.tw
+- 偵測位置 - 
+ 國家 : Taiwan , 城市 : None , 地區 : None
+ ISP : AS17713 National Sun Yat-sen University
+ 經度 : 23.5 , 緯度 : 121.0
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - 140.127.218.198
+- 偵測位置 - 
+ 國家 : Taiwan , 城市 : None , 地區 : None
+ ISP : AS17713 National Sun Yat-sen University
+ 經度 : 23.5 , 緯度 : 121.0
+ 地區代碼 : 0 , 郵遞區號 : None
+----------------------------------------------
+- 偵測目標 - 8.8.8.8
+- 偵測位置 - 
+ 國家 : United States , 城市 : Mountain View , 地區 : CA
+ ISP : AS15169 Google Inc.
+ 經度 : 37.3845 , 緯度 : -122.0881
+ 地區代碼 : 650 , 郵遞區號 : 94040
+----------------------------------------------

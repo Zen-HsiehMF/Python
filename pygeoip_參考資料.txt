@@ -1,0 +1,67 @@
+python-midterm
+
+pygeoip.GeoIPError: Invalid database type, expected City
+
+有些舊版的不相容或者沒有包含功能
+
+
+http://ju.outofmemory.cn/entry/95221
+
+https://code.google.com/archive/p/pygeoip/wikis/Usage.wiki 使用文件
+
+GeoLiteCity 可以用這種寫法-
+
+gi = pygeoip.GeoIP('./GeoIP.dat')
+print gi.country_code_by_name('')
+print gi.country_code_by_addr('140.127.218.198')
+print gi.country_name_by_name('google.com')
+print gi.country_name_by_addr('64.233.161.99')
+
+
+
+Geoip 不能用GeoLite的寫法-
+
+def TargetIP(target):
+        rec = gi.record_by_name(target)
+        city = rec['city']
+        region = rec['region_code']
+        country = rec['country_name']
+        long = rec['longitude']
+        lat = rec['latitude']
+        print '[*] 目標: ' + target + ' Geo-located. '
+        print '[+] 地址: '+str(city)+','+str(region)+', '+str(country)
+        print '[+] 經度: '+str(lat)+ ', 緯度: '+ str(long)
+
+
+f = open("geoip_history.txt","w")
+        f.write('- 偵測目標 - ' +str(target))
+        f.write('\n')
+        f.write('- 偵測位置 - ')
+        f.write('\n')
+        f.write(' 國家 : '+ str(country) +' , 城市 : '+ str(city) +' , 地區 : ' +str(region))
+        f.write('\n')
+        f.write(' ISP : ' + str(isp))
+        f.write('\n')
+        f.write(' 經度 : '+str(lat)+ ' , 緯度 : '+ str(long))
+        f.write('\n')
+        f.write(' 地區代碼 : '+str(area)+' , 郵遞區號 : '+str(pos))
+        f.write('\n')
+        f.write('----------------------------------------------')
+        f.close
+
+
+GeoLiteCity : Geoip
+
+https://code.google.com/archive/p/pygeoip/wikis/Usage.wiki
+
+
+"country_code" -- Two letter country code (see geoip_country_code_by_name())
+"country_code3" -- Three letter country code (see geoip_country_code3_by_name())
+"country_name" -- The country name (see geoip_country_name_by_name())
+"region" -- The region code (ex: CA for California)
+"city" -- The city.
+"postal_code" -- The Postal Code, FSA or Zip Code.
+"latitude" -- The Latitude as signed double.
+"longitude" -- The Longitude as signed double.
+"dma_code" -- Designated Market Area code (USA and Canada only)
+"area_code" -- The PSTN area code (ex: 212)
